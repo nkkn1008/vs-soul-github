@@ -15,7 +15,7 @@ namespace vs_soul_github.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Hello world.";
 
             return View();
         }
